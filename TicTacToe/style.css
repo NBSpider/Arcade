@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+2");
+
+* {
+  font-family: "Baloo 2", cursive;
+  color: Red;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #1d1f20;
+}
+
+main {
+    display:grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    min-width: 10rem;
+    min-height: 10rem;
+} 
+
+.cell {
+    border: 0.1rem #1d1f20 solid;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.player1 {
+    color: #1d1f20;
+
+}
+
+.player2 {
+    color: red;
+
+}
+
