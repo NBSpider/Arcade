@@ -30,15 +30,17 @@ function placeMark(event){
         }
         let index = event.target.attributes['data-coordinates'].nodeValue
         gameState.board[index] = gameState.currentPlayer // updates JS Board
-        event.target.innerText = gameState.currentPlayer //updates HTML board
+        event.target.innerText = gameState.currentPlayer // updates HTML board
         checkWin()
         switchPlayer()
+        
     }
     
 
 }
 
 function switchPlayer(){
+
     if(gameState.currentPlayer === XPlayer){
        gameState.currentPlayer = OPlayer
     }

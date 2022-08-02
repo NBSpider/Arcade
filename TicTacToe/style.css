@@ -2,7 +2,9 @@
 
 * {
   font-family: "Baloo 2", cursive;
-  color: Red;
+  color: red;
+  font-size: 1rem;
+  text-align: center;
 }
 
 body {
@@ -17,8 +19,8 @@ body {
 main {
     display:grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    min-width: 10rem;
-    min-height: 10rem;
+    min-width: 50rem;
+    min-height: 50rem;
 } 
 
 .cell {
@@ -27,13 +29,10 @@ main {
     background-color: lightgray;
 }
 
-.player1 {
-    color: #1d1f20;
-
+.cell:hover {
+  background-color: white;
 }
 
-.player2 {
-    color: red;
-
+body {
+  background-image: url('https://live.staticflickr.com/4078/4906592822_8dcc45c3c3_b.jpg');
 }
-

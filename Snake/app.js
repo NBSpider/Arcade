@@ -229,5 +229,6 @@ gameControls.addEventListener("click", function (event) {
     turnSnake(direction)
 })
 
+
 resetInitialState()
 updateHTMLBoard()

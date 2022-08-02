@@ -63,3 +63,7 @@ button.left {
     grid-row: 2/3;
     grid-column:1/2;
 }
+
+body {
+    background-image: url('https://live.staticflickr.com/4078/4906592822_8dcc45c3c3_b.jpg');
+ }
