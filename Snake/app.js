@@ -38,6 +38,7 @@ Requirements
 */
 
 
+// const restartButton = document.getElementsByClassName('restart')
 //GAME PHASES
 const PLAYING = "PLAYING"
 const GAME_OVER = "GAME_OVER"
@@ -229,6 +230,7 @@ gameControls.addEventListener("click", function (event) {
     turnSnake(direction)
 })
 
+// restartButton.addEventListener('click')
 
 resetInitialState()
 updateHTMLBoard()

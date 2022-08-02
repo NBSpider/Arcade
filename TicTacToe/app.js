@@ -83,6 +83,8 @@ button.addEventListener('click', function(){
 table.addEventListener('click', placeMark)    
 resetInitialState()
 })
+
+
     
 
 

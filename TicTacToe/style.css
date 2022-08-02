@@ -4,6 +4,7 @@
   font-family: "Baloo 2", cursive;
   color: red;
   text-align: center;
+  font-size: 1rem;
 }
 
 body {
@@ -25,13 +26,17 @@ main {
 .cell {
     border: 0.1rem #1d1f20 solid;
     border-radius: 50%;
-    background-color: lightgray;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 10rem;
 }
 
 .cell:hover {
-  background-color: white;
+  background-color: lightgray;
 }
 
 body {
   background-image: url('https://live.staticflickr.com/4078/4906592822_8dcc45c3c3_b.jpg');
 }
+
